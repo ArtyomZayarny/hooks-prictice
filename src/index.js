@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import 'materialize-css'
 import * as serviceWorker from './serviceWorker';
+import ProductsTable from './first/ProductsTable'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <ProductsTable />
   </React.StrictMode>,
   document.getElementById('root')
 );
