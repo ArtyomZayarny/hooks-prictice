@@ -5,11 +5,14 @@ import App from './App';
 import 'materialize-css'
 import * as serviceWorker from './serviceWorker';
 import ProductsTable from './first/ProductsTable'
+import TypeScriptApp from '../src/typeScript/TypeScript';
+
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-    <ProductsTable />
+    {/* <ProductsTable /> */}
+     <TypeScriptApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
